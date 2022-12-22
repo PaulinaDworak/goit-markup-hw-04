@@ -126,7 +126,12 @@ body {
 /*style mające zastosowanie tylko dla index */
 .services {
     text-align: center;
-    background: var(--dark-background);
+    background-color: var(--dark-background);
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 .services h1 {
     font-weight: 900;
