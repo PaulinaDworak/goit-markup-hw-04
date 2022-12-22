@@ -127,11 +127,10 @@ body {
 .services {
     text-align: center;
     background-color: var(--dark-background);
-    background-image: url(background.jpg);
+    background-image: url("background.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    object-fit: cover;
 }
 .services h1 {
     font-weight: 900;
@@ -142,6 +141,7 @@ body {
     margin: -94px 252px 30px;
     padding-top: 200px;
 }
+
 .services button {
     font-weight: 700;
     line-height: 1.875;
@@ -233,6 +233,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 .position {
     font-weight: 400;
@@ -293,6 +294,9 @@ body {
 }
 .websites li:nth-child(9) {
     margin-right: 0;
+}
+.websites li:hover {
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 .website-info {
     padding: 20px 24px;
