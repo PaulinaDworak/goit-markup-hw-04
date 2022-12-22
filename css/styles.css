@@ -1,0 +1,317 @@
+/* style mające zastosowanie dla index oraz portfolio */
+:root {
+    --text-color: #212121;
+    --logo-color-black: #000000;
+    --logo-color-white: #ffffff;
+    --blue-accent: #2196f3;
+    --dark-background: #2f303a;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.box-header {
+    border-bottom: 1px solid #ececec;
+    padding: 24px 0 25px;
+}
+.box-header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: var(--blue-accent);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    display: inline-block;
+}
+
+.logo-black {
+    color: var(--logo-color-black);
+}
+.logo-white {
+    color: var(--logo-color-white);
+}
+.site-nav {
+    list-style: none;
+    letter-spacing: 0.02em;
+    display: flex;
+    gap: 46px;
+}
+.site-nav a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--blue-accent);
+}
+
+.email {
+    margin-right: 50px;
+}
+.contact {
+    font-style: normal;
+    color: var(--logo-color-white);
+    text-decoration: none;
+    line-height: 1.7;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+}
+.link {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.17;
+    text-decoration: none;
+    color: #757575;
+    cursor: pointer;
+}
+.link:hover,
+.link:focus {
+    color: var(--blue-accent);
+}
+.footer-wrapper {
+    padding: 60px 0;
+    background-color: var(--dark-background);
+}
+.address-wrapper {
+    margin-top: 20px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.tel {
+    margin-top: 9px;
+    line-height: 1.7;
+}
+.footer-email {
+    padding-top: 9px;
+}
+.section {
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+/*style mające zastosowanie tylko dla index */
+.services {
+    text-align: center;
+    background: var(--dark-background);
+}
+.services h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    color: var(--logo-color-white);
+    letter-spacing: 0.06em;
+    margin: -94px 252px 30px;
+    padding-top: 200px;
+}
+.services button {
+    font-weight: 700;
+    line-height: 1.875;
+    background-color: var(--blue-accent);
+    color: var(--logo-color-white);
+    border-color: var(--blue-accent);
+    letter-spacing: 0.06em;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 41px 10px 42px;
+    margin-bottom: 200px;
+}
+.articles {
+    list-style: none;
+    letter-spacing: 0.03em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 94px;
+}
+.articles li {
+    margin-right: 30px;
+}
+.articles li:last-child {
+    margin-right: 0;
+}
+.articles h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172;
+    margin-bottom: 10px;
+    margin-top: -94px;
+}
+.articles p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.types-of-services {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.services-header {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+}
+.services-images {
+    margin-right: 30px;
+}
+.types-of-services li:last-child {
+    margin-right: 0;
+}
+.team-members {
+    background: #f5f4fa;
+}
+.team {
+    list-style: none;
+    letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    padding-bottom: 94px;
+    margin-bottom: -94px;
+}
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 50px;
+    padding-top: 94px;
+}
+.name-card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.team-member {
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    line-height: 1.2;
+    display: block;
+    margin-top: 10px;
+}
+/* style mające zastosowanie tylko dla portfolio */
+.filters {
+    list-style: none;
+    text-align: center;
+    letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
+}
+.filters button {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f4fa;
+    border-color: #f5f4fa;
+    cursor: pointer;
+    line-height: 1.6;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
+    margin: 94px 8px 50px 0;
+}
+.filters li:last-child {
+    margin-right: 0;
+}
+.filters button:hover,
+.filters button:focus {
+    background-color: var(--blue-accent);
+    color: var(--logo-color-white);
+}
+.websites {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+.websites li {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.websites li:nth-child(3) {
+    margin-right: 0;
+}
+.websites li:nth-child(6) {
+    margin-right: 0;
+}
+.websites li:nth-child(9) {
+    margin-right: 0;
+}
+.website-info {
+    padding: 20px 24px;
+    border-bottom: 1px solid #eeeeee;
+}
+.category {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #757575;
+    letter-spacing: 0.03em;
+    display: block;
+}
+.link-underlined {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.1;
+    text-decoration: underline;
+    color: #757575;
+    cursor: pointer;
+    padding-top: 9px;
+}
+.link-underlined:hover,
+.link-underlined:focus {
+    color: var(--blue-accent);
+}
