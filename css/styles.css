@@ -272,7 +272,7 @@ body {
 }
 .name-card {
     padding-top: 30px;
-    padding-bottom: 30px;
+    
     text-align: center;
 }
 .team-member {
@@ -289,6 +289,22 @@ body {
     line-height: 1.2;
     display: block;
     margin-top: 10px;
+}
+.tm-sm-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    margin: 16px 32px 30px;
+}
+.team-member-sm {
+    fill: #afb1b8;
+    border-radius: 50%;
+}
+.team-member-sm:hover {
+    background: #2196f3;
+    fill: #ffffff;
 }
 .our-clients {
     font-weight: 700;
