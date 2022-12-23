@@ -137,6 +137,7 @@ body {
     font-style: normal;
     margin-left: 171px;
 }
+
 /*style mające zastosowanie tylko dla index */
 .services {
     text-align: center;
@@ -168,6 +169,17 @@ body {
     border: none;
     padding: 10px 41px 10px 42px;
     margin-bottom: 200px;
+}
+.article-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+.article-icon {
+    background-color: #f5f4fa;
+    padding: 25px 100px;
 }
 
 .articles {
@@ -265,6 +277,11 @@ body {
     line-height: 1.2;
     margin-bottom: 50px;
     padding-top: 94px;
+}
+.our-clients-icons {
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
 }
 /* style mające zastosowanie tylko dla portfolio */
 .filters {
