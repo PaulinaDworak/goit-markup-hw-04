@@ -127,7 +127,7 @@ body {
 .footer-box {
     display: flex;
 }
-.join-us {
+.join-us-header {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 14px;
@@ -137,7 +137,23 @@ body {
     font-style: normal;
     margin-left: 171px;
 }
-
+.join-us-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    margin-left: 171px;
+    margin-top: 20px;
+}
+.sm {
+    fill: #ffffff;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.sm:hover {
+    background: #2196f3;
+}
 /*style mające zastosowanie tylko dla index */
 .services {
     text-align: center;
