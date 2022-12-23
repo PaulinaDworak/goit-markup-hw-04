@@ -177,9 +177,13 @@ body {
     list-style: none;
     gap: 30px;
 }
+.article-icons-box {
+    margin-bottom: 30px;
+}
 .article-icon {
     background-color: #f5f4fa;
     padding: 25px 100px;
+    border-radius: 4px;
 }
 
 .articles {
@@ -283,6 +287,18 @@ body {
     display: flex;
     flex-direction: row;
     column-gap: 30px;
+    justify-content: center;
+}
+.our-clients-icon {
+    outline: 1px solid #afb1b8;
+    padding: 17.71px 32px 14.25px;
+    border-radius: 4px;
+    fill: #afb1b8;
+}
+.our-clients-icon:hover {
+    cursor: pointer;
+    fill: #2196f3;
+    outline: 1px solid #2196f3;
 }
 /* style mające zastosowanie tylko dla portfolio */
 .filters {
