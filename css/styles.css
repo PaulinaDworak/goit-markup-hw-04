@@ -281,6 +281,7 @@ body {
 .our-clients-icons {
     list-style: none;
     display: flex;
+    flex-direction: row;
     column-gap: 30px;
 }
 /* style mające zastosowanie tylko dla portfolio */
