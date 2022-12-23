@@ -77,6 +77,7 @@ body {
 .email {
     margin-right: 50px;
 }
+
 .contact {
     font-style: normal;
     color: var(--logo-color-white);
@@ -96,9 +97,17 @@ body {
     color: #757575;
     cursor: pointer;
 }
+
 .link:hover,
 .link:focus {
     color: var(--blue-accent);
+    fill: #2196f3;
+}
+.email-icon {
+    margin-right: 10px;
+}
+.tel-icon {
+    margin-right: 10px;
 }
 .footer-wrapper {
     padding: 60px 0;
@@ -112,7 +121,6 @@ body {
     flex-direction: column;
     width: fit-content;
 }
-
 .tel {
     margin-top: 9px;
     line-height: 1.7;
@@ -272,7 +280,7 @@ body {
 }
 .name-card {
     padding-top: 30px;
-    
+
     text-align: center;
 }
 .team-member {
