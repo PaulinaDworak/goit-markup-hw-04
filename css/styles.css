@@ -173,7 +173,8 @@ img {
     background-color: var(--dark-background);
     background-image: linear-gradient(to bottom, var(--bg-img), var(--bg-img)),
         url(../images/bg-img.png);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .services h1 {
