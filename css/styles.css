@@ -19,6 +19,10 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
 }
+svg,
+img {
+    vertical-align: middle;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -96,6 +100,7 @@ body {
     text-decoration: none;
     color: #757575;
     cursor: pointer;
+    fill: currentColor;
 }
 
 .link:hover,
@@ -159,7 +164,7 @@ body {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
 }
-.sm:hover {
+.sm:is(:hover, :focus) {
     background: #2196f3;
 }
 /*style mające zastosowanie tylko dla index */
@@ -280,7 +285,6 @@ body {
 }
 .name-card {
     padding-top: 30px;
-
     text-align: center;
 }
 .team-member {
@@ -288,7 +292,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .position {
     font-weight: 400;
@@ -310,10 +316,11 @@ body {
     fill: #afb1b8;
     border-radius: 50%;
 }
-.team-member-sm:hover {
+.team-member-sm:is(:hover, :focus) {
     background: #2196f3;
     fill: #ffffff;
 }
+
 .our-clients {
     font-weight: 700;
     font-size: 36px;
@@ -335,7 +342,7 @@ body {
     border-radius: 4px;
     fill: #afb1b8;
 }
-.our-clients-icon:hover {
+.our-clients-icon:is(:hover, :focus) {
     cursor: pointer;
     fill: #2196f3;
     outline: 1px solid #2196f3;
@@ -365,11 +372,10 @@ body {
 .filters li:last-child {
     margin-right: 0;
 }
-.filters button:hover,
-.filters button:focus {
+.filters button:is(:hover, :focus) {
     background-color: var(--blue-accent);
     color: var(--logo-color-white);
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .websites {
     list-style: none;
@@ -394,11 +400,13 @@ body {
     margin-right: 0;
 }
 .websites li:hover {
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .website-info {
     padding: 20px 24px;
-    border-bottom: 1px solid #eeeeee;
+    border: 1px solid #ececec;
+    border-top: none;
 }
 .category {
     font-size: 16px;
